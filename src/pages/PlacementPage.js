@@ -151,7 +151,7 @@ const PlacementPage = () => {
         </Container>
       </Navbar>
 
-      <Container className="mt-15">
+      <Container className="mt-15" style={{ paddingTop: "90px" }}>
         {/* Year Selection */}
         <Row className="justify-content-center mb-4">
           <Col md={4} className="d-flex gap-2">
