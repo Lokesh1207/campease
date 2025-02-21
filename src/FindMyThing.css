@@ -1,0 +1,42 @@
+.carousel-item img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .carousel-item:hover img {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.300); 
+    border-radius: 5px; /* Rounded corners for the caption box */
+    color: whitesmoke !important; /* White text for better readability */
+    padding: 10px; /* Add some padding for better spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add a subtle text shadow for better visibility */
+  }
+  
+  
+  .carousel {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide any overflow from the rounded corners */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  .carousel-caption .btn {
+    background-color: #007bff; /* Blue background */
+    border-radius: 30px; /* Round corners */
+    padding: 12px 24px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .carousel-caption .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
